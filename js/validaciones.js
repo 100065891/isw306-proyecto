@@ -72,5 +72,17 @@ document.getElementById("correo")
             "success"
         );
     }
+document.getElementById("limpiar")
+.addEventListener("click", ()=>{
 
+    localStorage.clear();
+
+    formulario.reset();
+
+    mostrarMensaje(
+        "Datos eliminados correctamente",
+        "success"
+    );
+
+});
 });
