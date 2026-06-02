@@ -60,3 +60,17 @@ function mostrarMensaje(texto,tipo){
     mensaje.classList.add(tipo);
 
 }
+document.getElementById("correo")
+.addEventListener("input", ()=>{
+
+    const correo =
+        document.getElementById("correo").value;
+
+    if(correo.includes("@")){
+        mostrarMensaje(
+            "Correo válido",
+            "success"
+        );
+    }
+
+});
