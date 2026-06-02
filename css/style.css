@@ -133,5 +133,21 @@ aside{
     min-width:200px;
     box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
+#mensaje{
+    margin-top:20px;
+    padding:15px;
+    font-weight:bold;
+}
 
+.error{
+    background:#ffdddd;
+    color:red;
+    border:1px solid red;
+}
+
+.success{
+    background:#ddffdd;
+    color:green;
+    border:1px solid green;
+}
 }
